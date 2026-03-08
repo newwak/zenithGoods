@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // 2. WhatsApp redirect on every "Buy Now" click
-const WHATSAPP_NUMBER = '16728981189'; //+1 (672) 898-1189 without +
+const WHATSAPP_NUMBER = '18032901312'; //+1 8032901312 without +
 
 document.querySelectorAll('.buy-now').forEach(button => {
     button.addEventListener('click', function(e) {
@@ -83,4 +83,5 @@ document.querySelectorAll('.more').forEach(button => {
 });
 
 // Optional: Log when script loads (for debugging)
+
 console.log('ps.js loaded • WhatsApp target: +' + WHATSAPP_NUMBER);
